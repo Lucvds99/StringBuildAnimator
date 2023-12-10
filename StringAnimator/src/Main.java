@@ -17,7 +17,7 @@ public class Main {
                 for (char c : array) {
                     for (char alpha : alphabetArray) {
                         System.out.println(finalSentence.toString() +alpha);
-                        Thread.sleep(0, 20);
+                        Thread.sleep(0, 10);
                         if (alpha == c){
                             finalSentence.append(alpha);
                             break;
